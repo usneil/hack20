@@ -1,16 +1,63 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
+import 'package:flutter_swiper/flutter_swiper.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // final wordPair = WordPair.random(); // DELETE
-
     return MaterialApp(
-      title: 'Startup Name Generator',
-      home: RandomWords(),
+      // title: 'Startup Name Generator',
+      // home: RandomWords(),
+      title: 'Three for Trees',
+      theme: new ThemeData(
+        primarySwatch: Colors.lightGreen,
+      ),
+      home: new MyHomePage(title: 'Plant your Trees'),
+    );
+  }
+}
+
+class MyHomePage extends StatefulWidget {
+  MyHomePage({Key key, this.title}) : super(key: key);
+
+  final String title;
+
+  @override
+  _MyHomePageState createState() => new _MyHomePageState();
+}
+
+final List imgList = [
+  'images/Plant1.png',
+  'images/Plant2.png',
+  'images/Plant3.png',
+];
+
+class _MyHomePageState extends State<MyHomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return new Scaffold(
+      appBar: new AppBar(
+        title: new Text(widget.title),
+      ),
+      body: new Swiper(
+        itemBuilder: (BuildContext context, int index) {
+          return new Image.asset(
+            //"http://via.placeholder.com/350x150",
+            imgList[index],
+            fit: BoxFit.fill,
+          );
+        },
+        itemCount: 3,
+        itemWidth: 300.0,
+        itemHeight: 400.0,
+        layout: SwiperLayout.STACK,
+        //viewportFraction: 0.8,
+        //scale: 0.5,
+        //pagination: new SwiperPagination(),
+        //control: new SwiperControl(),
+      ),
     );
   }
 }
