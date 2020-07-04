@@ -1,0 +1,109 @@
+name: recyclomedia
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dio:
+  audioplayers: ^0.15.1
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  provider:
+  shared_preferences: ^0.5.7+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.5
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: SilkScreen
+      fonts:
+        - asset: lib/assets/fonts/slkscr.ttf
+        - asset: lib/assets/fonts/slkscrb.ttf
+    - family: DisposableDroid
+      fonts:
+        - asset: lib/assets/fonts/DisposableDroidBB.ttf
+        - asset: lib/assets/fonts/DisposableDroidBB_bld.ttf
+  assets:
+    - lib/assets/images/login.jpg
+    - lib/assets/images/signup.png
+    - lib/assets/images/event.png
+    - lib/assets/images/level.png
+    - lib/assets/images/earthlover.png
+    - lib/assets/images/beginner.png
+    - lib/assets/images/aboutus.png
+    - lib/assets/images/donate.png
+    - lib/assets/images/clock.png
+    - lib/assets/images/calendar.png
+    - lib/assets/images/loading.gif
+    - lib/assets/images/email.png
+    - lib/assets/images/error.gif
+    - lib/assets/images/eventbg1.jpg
+    - lib/assets/images/eventbg2.jpg
+    - lib/assets/images/eventsbg.png
+    - lib/assets/images/donations.gif
+    - lib/assets/images/rings.gif
+    - assets/audio/click.wav
+    - assets/audio/eventsound.wav
+    - assets/audio/pageload.wav
+    - assets/audio/donate.wav
+    - lib/assets/images/isala.jpg
+    - lib/assets/images/suvin.jpg
+    - lib/assets/images/akash.jpg
+    - lib/assets/images/visal.jpg
+    - lib/assets/images/thivvyan.jpg
+    - lib/assets/images/palms.gif
+    - lib/assets/images/rain.gif
+    - lib/assets/images/urbanArea.gif
+    - lib/assets/images/city.gif
+    - lib/assets/images/sunsetCity.gif
+    - lib/assets/images/dashbg.png
+    - lib/assets/images/iceburg.jpg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

@@ -1,0 +1,23 @@
+{
+    "name": "Planet B Game",
+    "short_name": "plan-et-b",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#4F3747",
+    "theme_color": "#4F3747",
+    "description": "Hack20 Flutter project.",
+    "orientation": "landscape-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

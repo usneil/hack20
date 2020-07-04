@@ -1,0 +1,37 @@
+name: flame_and_watch
+description: Flame and watch app
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^0.22.1
+  shared_preferences: 0.5.7
+    
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/sfxs/
+  fonts:
+    - family: Liberation Sans
+      fonts:
+        - asset: assets/fonts/LiberationSans-Bold.ttf
+        - asset: assets/fonts/LiberationSans-Regular.ttf
+    - family: Firealistic
+      fonts:
+        - asset: assets/fonts/firealistic-regular.otf
+    - family: Crystal 
+      fonts:
+        - asset: assets/fonts/CrystalItalic-R6A.ttf

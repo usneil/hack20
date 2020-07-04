@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "610009539436",
+    "firebase_url": "https://morsey-e1c3f.firebaseio.com",
+    "project_id": "morsey-e1c3f",
+    "storage_bucket": "morsey-e1c3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610009539436:android:b4641f51f911401ca8c949",
+        "android_client_info": {
+          "package_name": "com.aniket.morsey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610009539436-jidtvb95r28jrcs44ip4a2pk9ik27aq7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aniket.morsey",
+            "certificate_hash": "3e757356bc630beb82922b8f55eca683efbdc53c"
+          }
+        },
+        {
+          "client_id": "610009539436-rmaqd52fcfjeavbb19brdu9mvap7kqlv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbjG_yRnEpW30IadkY6Yvwb-PLas3BGK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610009539436-rmaqd52fcfjeavbb19brdu9mvap7kqlv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
